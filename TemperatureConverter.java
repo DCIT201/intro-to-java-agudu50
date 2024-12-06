@@ -68,7 +68,7 @@ public class TemperatureConverter {
           System.out.printf("The temperature %.2f°C.\n",temperature, convertedTemperature);
         }
 
-        System.out.println("Thank you using the Temperature Converter");
+        System.out.println("Thank you for using the Temperature Converter");
         scanner.close();
             
         }
