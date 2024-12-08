@@ -10,6 +10,7 @@ public class TemperatureConverter {
                 System.out.println("1. Convert Celsius to Fahrenheit");
                 System.out.println("2. Convert Fahrenheit to Celsius");
                 System.out.println("3. Exit");
+                scanner.close();
 
                 int choice = 0;
 
