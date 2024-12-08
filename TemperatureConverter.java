@@ -10,7 +10,7 @@ public class TemperatureConverter {
                 System.out.println("1. Convert Celsius to Fahrenheit");
                 System.out.println("2. Convert Fahrenheit to Celsius");
                 System.out.println("3. Exit");
-                scanner.close();
+                
 
                 int choice = 0;
 
@@ -57,8 +57,12 @@ public class TemperatureConverter {
                 } else {
                     // Convert Fahrenheit to Celsius
                     convertedTemperature = (temperature - 32) * 5 / 9;
-                    System.out.printf("The temperature %.2f°F is equivalent to %.2f°C.\n", temperature, convertedTemperature);
+                    System.out.printf("The temperature %.2f°F is equivalent to %.2f°C.\n", temperature,
+                            convertedTemperature);
+
                 }
+                scanner.close();
+                
             }
         }
     }
